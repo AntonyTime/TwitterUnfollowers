@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="vertical" android:weightSum="1">
+    <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="323dp"
+            android:layout_height="132dp"
+            android:text="@string/welcome"
+            android:textColor="#ff00abed"
+            android:textSize="35sp"
+            android:layout_weight="0.22"
+            android:gravity="center"/>
+    <ImageView
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/login_button" />
+</LinearLayout>
