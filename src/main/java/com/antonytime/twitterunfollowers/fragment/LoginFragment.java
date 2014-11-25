@@ -39,8 +39,7 @@ public class LoginFragment extends Fragment {
     WebView web;
     SharedPreferences pref;
     ProgressDialog progress;
-    Bitmap bitmap;
-    
+
    @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.login_fragment, container, false);
