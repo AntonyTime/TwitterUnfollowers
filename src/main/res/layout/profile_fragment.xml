@@ -12,20 +12,18 @@
             android:text="@string/tv_profile_welcome"
             android:textSize="30sp"
             android:textColor="#ff00abed"
-            android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"/>
+            android:id="@+id/tv_welcome"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
     <TextView
             android:id="@+id/prof_name"
             android:layout_width="wrap_content"
             android:textSize="30sp"
-            android:layout_height="80dp"
+            android:layout_height="wrap_content"
             android:textColor="#ff00abed"
             android:layout_gravity="center"
-            android:text="@string/profile_name"
-            android:layout_below="@+id/textView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" android:layout_toLeftOf="@+id/prof_image"
-            android:layout_toStartOf="@+id/prof_image" android:layout_alignBottom="@+id/prof_image"/>
+            android:text="@string/tv_profile_name"
+            android:layout_alignBottom="@+id/prof_image"/>
     <ImageView
             android:id="@+id/prof_image"
             android:layout_width="75dp"
@@ -35,21 +33,39 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"/>
     <ImageView
+            android:id="@+id/unfollowers"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:src="@drawable/unfollowers_button"
+            android:layout_gravity="center"
+            android:layout_above="@+id/tweet"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+    <ImageView
             android:id="@+id/tweet"
             android:layout_width="400dp"
             android:layout_height="100dp"
-            android:src="@drawable/tweet_button"
+            android:src="@drawable/post_button"
             android:layout_gravity="center"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"/>
+            android:layout_above="@+id/signout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
     <ImageView
             android:id="@+id/signout"
             android:layout_width="400dp"
             android:layout_height="100dp"
             android:src="@drawable/signout_button"
             android:layout_gravity="center"
-            android:layout_below="@+id/tweet"
+            android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"/>
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+
 
 </RelativeLayout>

@@ -6,6 +6,11 @@
               android:layout_gravity="center"
               android:gravity="center"
               android:orientation="vertical" android:weightSum="1">
+    <ImageView
+            android:layout_width="183dp"
+            android:layout_height="186dp"
+            android:id="@+id/imageView" android:layout_gravity="center_horizontal"
+            android:src="@drawable/head_down_256px"/>
     <TextView
             android:id="@+id/tv_welcome"
             android:layout_width="323dp"

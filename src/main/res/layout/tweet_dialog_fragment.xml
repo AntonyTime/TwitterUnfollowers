@@ -4,20 +4,28 @@
               android:orientation="vertical"
               android:layout_width="500dp"
               android:layout_gravity="center"
-              android:layout_height="match_parent" android:weightSum="1">
+              android:layout_height="match_parent" android:weightSum="1" android:padding="20dp">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#ff00abed"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Compose new Tweet"
+            android:id="@+id/tv_compose_new_tweet" android:layout_gravity="center_horizontal"/>
     <EditText
             android:layout_width="362dp"
             android:layout_height="92dp"
             android:textAlignment="center"
             android:hint="@string/txt_post_status"
             android:id="@+id/tweet_text"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:paddingLeft="20dp" android:paddingRight="20dp"/>
     <ImageView
-            android:layout_width="412dp"
-            android:layout_height="52dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="40dp"
-            android:src="@drawable/post_button"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:id="@+id/post_tweet"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/post_button"
+            />
 </LinearLayout>
