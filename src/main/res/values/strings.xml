@@ -4,7 +4,7 @@
     <string name="tweet">Tweet</string>
     <string name="logout">Logout</string>
     <string name="welcome">Welcome to Twitter Unfollowers, click button to login with Twitter</string>
-    <string name="profile_name">Profile name</string>
+    <string name="tv_profile_name">Profile name</string>
     <string name="tv_profile_welcome">Welcome</string>
     <string name="txt_post_status">Post your status here…</string>
 </resources>
